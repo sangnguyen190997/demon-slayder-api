@@ -29,9 +29,8 @@ app.get("/v1", (req, resp) => {
 
         thumnails.push({
           name,
-          url: `https://demon-slayer-2bd4.onrender.com/v1${
-            url.split("/wiki")[1]
-          }`,
+          url:
+            "https://demon-slayer-2bd4.onrender.com/v1" + url.split("/wiki")[1],
           image,
         });
       });
